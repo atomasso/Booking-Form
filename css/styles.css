@@ -1,0 +1,12 @@
+.form-group.required label:after {
+  content:" *";
+  color:red;
+}
+
+.iti-flag {
+  background-image: url("../resources/library/tel/img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti-flag {background-image: url("../resources/library/tel/img/flags@2x.png");}
+}
