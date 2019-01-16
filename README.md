@@ -57,13 +57,12 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [International Telephone Input](https://intl-tel-input.com) - JavaScript plugin for entering and validating international telephone numbers
 * [Select2](https://select2.org) -  jQuery based replacement for select boxes
-* [jQuery Validation Plugin](https://jqueryvalidation.org/) - jQuery validation plugin
+* [jQuery Validation Plugin](https://jqueryvalidation.org) - jQuery validation plugin
+* [Datepicker](https://github.com/fengyuanchen/datepicker) - A simple jQuery datepicker plugin
+* [jQuery Timepicker](https://timepicker.co) - jQuery plugin for selecting times
+
 
