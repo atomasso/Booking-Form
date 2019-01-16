@@ -3,33 +3,28 @@ Simple PHP booking form with jQuery validation
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The form requires transfered to web servers that supports PHP will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Package should be uploaded to a web server with PHP installed. Files and folders should keep the same structure. Booking form is launched when `index.php` file is opened in the browser.
 
 ### File structure
 
-The root directory contains following files and folders:
+The root directory contains following and folders:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
++---css
+|   \---styles.css        --> 
++---includes
+|   \---form2email.php    -->
++---js
+|   \---main.js
++---resources
+|   +---library
+|   |   +---datepicker
+|   |   +---tel
++---index.php
++---README.md
 
 ## Usage
 
@@ -49,16 +44,10 @@ tell more …” kao placeholder
 9. Any Special Request - nije obavezno, text area sa dodatnim pojašnjenjem
 
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Built With
 
+* [PHP]
+* [jQuery]
 * [International Telephone Input](https://intl-tel-input.com) - JavaScript plugin for entering and validating international telephone numbers
 * [Select2](https://select2.org) -  jQuery based replacement for select boxes
 * [jQuery Validation Plugin](https://jqueryvalidation.org) - jQuery validation plugin
